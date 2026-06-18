@@ -1,13 +1,12 @@
+ function login() {
+  let user = document.getElementById("user").value;
+  if(user === "") {
+    alert("Username podu!");
+  } else {
+    alert("Login Success!");
+  }
+}
+
 function addTask() {
-    let task = document.getElementById("taskInput").value;
-
-    if (task === "") return;
-
-    let li = document.createElement("li");
-
-    li.innerHTML = task + ' <button onclick="this.parentElement.remove()">Delete</button>';
-
-    document.getElementById("taskList").appendChild(li);
-
-    document.getElementById("taskInput").value = "";
+  // un code inga iruku
 }
